@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Via Provisiones E-commerce
+
+A modern e-commerce platform built with Next.js 15, Sanity CMS, and Clerk authentication.
+
+## Features
+
+- 🛍️ Product browsing by categories
+- 💰 Special offers and discounts
+- 🔐 Secure authentication with Clerk
+- 📝 Content management with Sanity
+- 🎨 Modern UI with Tailwind CSS
+- 🚀 Fast performance with Next.js 15 and Turbopack
+
+## Tech Stack
+
+- **Framework:** Next.js 15
+- **Content Management:** Sanity
+- **Authentication:** Clerk
+- **Styling:** Tailwind CSS
+- **UI Components:** 
+  - Radix UI
+  - Framer Motion
+  - Lucide React Icons
+- **Development Tools:**
+  - TypeScript
+  - ESLint
+  - Turbopack
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server with Turbopack
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You'll need to set up the following environment variables:
+
+- Clerk authentication keys
+- Sanity project configuration
+- Any other API keys required for the project
+
+## Content Management
+
+This project uses Sanity as a headless CMS. To manage your content:
+
+1. Access the Sanity Studio at `/studio` route
+2. Use the Sanity dashboard to manage:
+   - Products
+   - Categories
+   - Discounts
+   - Special offers
+
+## Authentication
+
+User authentication is handled by Clerk, providing:
+- Secure sign-up/sign-in
+- User profile management
+- Session handling
+
+## Development
+
+- `npm run dev`: Starts development server with Turbopack
+- `npm run build`: Creates production build
+- `npm run start`: Starts production server
+- `npm run lint`: Runs ESLint
+- `npm run typegen`: Generates Sanity schema types
+
+## Deployment
+
+The easiest way to deploy this application is to use the [Vercel Platform](https://vercel.com/new).
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Sanity Documentation](https://www.sanity.io/docs)
+- [Clerk Documentation](https://clerk.dev/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private and not open for public use.
