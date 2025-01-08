@@ -1,4 +1,4 @@
-# Via Provisiones E-commerce
+# Catalog E-commerce
 
 A modern e-commerce platform built with Next.js 15, Sanity CMS, and Clerk authentication.
 
